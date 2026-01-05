@@ -1,25 +1,35 @@
-1- Instalar librería tailSelect. Copiar la carpeta que está en public\librerias\tailSelect a tu proyecto
+# Implementación de tailSelect
 
-2-  Inclúyelos en el header y footer
+## 1. Instalar la librería tailSelect
+Copia la carpeta ubicada 
+en public\librerias\tailSelect 
+dentro de tu proyecto.
 
-3-  En la vista html crea un select tal que 
-<select name="idEquipoCli[]" id="idEquipoCli" multiple="multiple" class="todos" >
+---
+## 2. Incluir archivos en el header y footer
+Incluye los archivos necesarios de **tailSelect** (CSS y JS) en el `header` y `footer` de tu aplicación.
+
+---
+
+## 3. Crear el `<select>` en la vista HTML
+En la vista HTML, crea un `select` con las siguientes características:
+
+```html
+<select name="idEquipoCli[]" id="idEquipoCli" multiple="multiple" class="todos">
 Ojo!!! la clase todos es importante.
 
 4- En el footer agrega:
 
-
 $(document).ready(function () {     
-
-  tail.select('.todos',{
+    tail.select('.todos', {
         search: true,
         locale: "es",
         multiSelectAll: true,
         searchMinLength: 0,
         multiContainer: true,
-  });
-
+    });
 });
+
 
 
 5- Finalmente debes poblar el select con datos que vengan del controlador y del modelo
