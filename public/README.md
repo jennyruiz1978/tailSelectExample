@@ -16,13 +16,13 @@ En la vista HTML, crea un `select` con las siguientes características:
 
 ```html
 <select name="idEquipoCli[]" id="idEquipoCli" multiple="multiple" class="todos">
-  
+```
 ⚠️ Ojo: la clase todos es importante.
 
 ## 4. Inicializar tailSelect en el footer
 
 Agrega el siguiente código en el footer:
-
+```javascript
 $(document).ready(function () {     
     tail.select('.todos', {
         search: true,
