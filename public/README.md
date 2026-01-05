@@ -16,9 +16,12 @@ En la vista HTML, crea un `select` con las siguientes características:
 
 ```html
 <select name="idEquipoCli[]" id="idEquipoCli" multiple="multiple" class="todos">
-Ojo!!! la clase todos es importante.
+  
+⚠️ Ojo: la clase todos es importante.
 
-4- En el footer agrega:
+## 4. Inicializar tailSelect en el footer
+
+Agrega el siguiente código en el footer:
 
 $(document).ready(function () {     
     tail.select('.todos', {
@@ -32,8 +35,28 @@ $(document).ready(function () {
 
 
 
-5- Finalmente debes poblar el select con datos que vengan del controlador y del modelo
+## 5. Poblar el <select>
 
-6- El resultado es un select como la imagen public\librerias\tailSelect\imagen ejemplo.png
+Debes cargar las opciones del select con datos que provengan del controlador y del modelo.
 
-7- Tiene un buscador, además un botón "Todos" para agregar todos los clientes, y otro "Ninguno" para quitar todos lo seleccionados. Al seleccionar uno o varios, estos se van agregando en el contenedor. Ver imagen en public\librerias\tailSelect\buscador.png
+## 6. Resultado final
+
+El resultado será un select similar al mostrado en la imagen:
+
+public\librerias\tailSelect\imagen ejemplo.png
+
+7. Funcionalidades
+
+El select incluye:
+
+🔍 Buscador integrado
+
+🔘 Botón “Todos” para seleccionar todos los clientes
+
+🚫 Botón “Ninguno” para deseleccionar todos
+
+📦 Al seleccionar uno o varios elementos, estos se agregan al contenedor
+
+Ver ejemplo en:
+
+public\librerias\tailSelect\buscador.png
