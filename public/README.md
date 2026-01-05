@@ -7,7 +7,7 @@
 Ojo!!! la clase todos es importante.
 
 4- En el footer agrega:
-<script>
+
 
 $(document).ready(function () {     
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
   });
 
 });
-</script>
+
 
 5- Finalmente debes poblar el select con datos que vengan del controlador y del modelo
 
