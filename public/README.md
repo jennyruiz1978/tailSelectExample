@@ -32,7 +32,7 @@ $(document).ready(function () {
         multiContainer: true,
     });
 });
-
+```
 
 
 ## 5. Poblar el <select>
@@ -45,7 +45,7 @@ El resultado será un select similar al mostrado en la imagen:
 
 public\librerias\tailSelect\imagen ejemplo.png
 
-7. Funcionalidades
+## 7. Funcionalidades
 
 El select incluye:
 
