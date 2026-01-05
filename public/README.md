@@ -35,27 +35,33 @@ $(document).ready(function () {
 ```
 
 
-## 5. Poblar el <select>
+## 5. Poblar el `<select>`
 
-Debes cargar las opciones del select con datos que provengan del controlador y del modelo.
+Debes cargar las opciones del `select` con datos que provengan del controlador y del modelo.
+
+---
 
 ## 6. Resultado final
 
-El resultado será un select similar al mostrado en la imagen:
+El resultado será un `select` similar al mostrado en la imagen:
 
 public\librerias\tailSelect\imagen ejemplo.png
 
+
+---
+
 ## 7. Funcionalidades
 
-El select incluye:
+El `select` incluye:
 
-🔍 Buscador integrado
+- 🔍 Buscador integrado  
+- 🔘 Botón **“Todos”** para seleccionar todos los clientes  
+- 🚫 Botón **“Ninguno”** para deseleccionar todos  
+- 📦 Al seleccionar uno o varios elementos, estos se agregan al contenedor  
 
-🔘 Botón “Todos” para seleccionar todos los clientes
+Ver ejemplo en:
 
-🚫 Botón “Ninguno” para deseleccionar todos
 
-📦 Al seleccionar uno o varios elementos, estos se agregan al contenedor
 
 Ver ejemplo en:
 
